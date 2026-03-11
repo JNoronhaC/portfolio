@@ -1,0 +1,25 @@
+#contato{
+    background-color: rgb(121, 121, 199);
+}
+
+#habilidades{
+    background-color: rgb(48, 241, 255);
+}
+
+#sobre{
+    background-color: rgb(168, 226, 145);
+}
+
+#Projeto{
+    background-color: rgb(236, 138, 138);
+}
+
+#Inicio{
+    background-color: rgb(244, 247, 121);
+}
+
+.navegação{
+    display:flex;
+    justify-content: center;
+    gap: 20px;px;
+}
