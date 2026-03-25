@@ -1,25 +1,68 @@
+#body{
+    background-color: black;
+}
+
+
 #contato{
-    background-color: rgb(121, 121, 199);
+    background-color: darkgray;
 }
 
 #habilidades{
-    background-color: rgb(48, 241, 255);
+    background-color:darkgrey;
 }
 
 #sobre{
-    background-color: rgb(168, 226, 145);
+    background-color: darkgrey;
 }
 
 #Projeto{
-    background-color: rgb(236, 138, 138);
+    background-color: darkgray;
 }
 
 #Inicio{
-    background-color: rgb(244, 247, 121);
+    background-color: darkgray;
 }
 
-.navegação{
-    display:flex;
-    justify-content: center;
-    gap: 20px;px;
+
+header{
+    padding: 40px 4%;
+}
+
+.menu{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header > .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header nav ul a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.mover{
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+
+    0%{
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(40px);
+    }
+    
 }
